@@ -49,7 +49,7 @@ public class SelectAll extends HttpServlet {
 				winter.setPosting_id(rset.getInt("posting_id"));
 				winter.setClear_date(rset.getString("clear_date"));
 				winter.setArea_business(rset.getString("area_business"));
-				winter.setTotal_open_amount(rset.getInt("total_open_amount"));
+				winter.setTotal_open_amount(rset.getDouble("total_open_amount"));
 				winter.setBaseline_create_date(rset.getString("baseline_create_date"));
 				winter.setCust_payment_terms(rset.getString("cust_payment_terms"));
 				winter.setInvoice_id(rset.getDouble("invoice_id"));
