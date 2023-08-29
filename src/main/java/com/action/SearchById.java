@@ -57,7 +57,7 @@ public class SearchById extends HttpServlet {
 				// winter.setClear_date(Date.valueOf(rset.getString("clear_date")));
 				winterobj.setClear_date(rset.getString("clear_date"));
 				winterobj.setArea_business(rset.getString("area_business"));
-				winterobj.setTotal_open_amount(rset.getInt("total_open_amount"));
+				winterobj.setTotal_open_amount(rset.getDouble("total_open_amount"));
 				winterobj.setBaseline_create_date(rset.getString("baseline_create_date"));
 				winterobj.setCust_payment_terms(rset.getString("cust_payment_terms"));
 				winterobj.setInvoice_id(rset.getDouble("invoice_id"));
